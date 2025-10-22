@@ -10,6 +10,8 @@ import {
 } from "@mui/material";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import profileImage from "../assets/IMG_20200127_122337.jpg";
+import resumePDF from "../assets/resume/Vinay_Choudhary___CV___Resume.pdf";
 
 const About = () => {
   const [downloading, setDownloading] = useState(false);
@@ -20,7 +22,7 @@ const About = () => {
     // Create a temporary anchor element
     const link = document.createElement("a");
     // Set the href to your PDF file path in the assets folder
-    link.href = "../../src/assets/resume/Vinay_Choudhary___CV___Resume.pdf"; // Adjust the path based on your assets folder structure
+    link.href = resumePDF;
     // Set the download attribute with the desired filename
     link.download = "Vinay_Choudhary_Resume.pdf";
     // Append to body, click, and remove
@@ -70,7 +72,7 @@ const About = () => {
                 }}
               >
                 <Avatar
-                  src="../../src/assets/IMG_20200127_122337.jpg"
+                  src={profileImage}
                   alt="Vinay Choudhary"
                   sx={{
                     width: { xs: 200, md: 260 },

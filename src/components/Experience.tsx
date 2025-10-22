@@ -16,11 +16,14 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useRef } from "react";
 
+import eatOSLogo from "../assets/eatOS Emblem - Pink - Png.png";
+import indiaNICLogo from "../assets/indiaNIC.jpeg";
+
 const experiences = [
   {
     id: 1,
     company: "eatOS POS Inc.",
-    companyLogo: "../../src/assets/eatOS Emblem - Pink - Png.png",
+    companyLogo: eatOSLogo,
     position: "Full-Stack Developer",
     duration: "Mar 2023 - Present",
     location: "Remote",
@@ -46,7 +49,7 @@ const experiences = [
   {
     id: 2,
     company: "IndiaNIC Infotech Ltd.",
-    companyLogo: "../../src/assets/indiaNIC.jpeg",
+    companyLogo: indiaNICLogo,
     position: "Jr. Software Engineer",
     duration: "Mar 2022 - Mar 2023",
     location: "Ahmedabad, India",

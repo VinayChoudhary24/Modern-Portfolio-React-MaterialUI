@@ -17,12 +17,19 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useRef } from "react";
 
+import defiImage from "../assets/letter-d.png";
+import microserviceImage from "../assets/microservice.png";
+import trainImage from "../assets/train.png";
+import foodImage from "../assets/delivery-man.png";
+import aiChatImage from "../assets/artificial-intelligence.png";
+import chatAppImage from "../assets/chatbot.png";
+
 // 🧠 Sample Projects Data
 const projects = [
   {
     id: 1,
     name: "DEFI – Learning Management System",
-    image: "../../src/assets/letter-d.png",
+    image: defiImage,
     description:
       "The DEFI (LMS) is a modern, full-featured web application designed to simplify online education for students, instructors, and administrators. It provides an intuitive platform for course creation, enrollment, stripe payments, and certification — all in one place.",
     technologies: [
@@ -51,7 +58,7 @@ const projects = [
   {
     id: 2,
     name: "Ground Booking Platform – Microservices Architecture",
-    image: "../../src/assets/microservice.png",
+    image: microserviceImage,
     description:
       "A scalable real-time ground booking system enabling facility owners to manage grounds and users to book slots seamlessly. Built with Node.js, Express, MongoDB, and Redis using a microservices architecture for high performance and modularity.",
     technologies: [
@@ -72,7 +79,7 @@ const projects = [
   {
     id: 3,
     name: "Train Booking App – React + Firebase",
-    image: "../../src/assets/train.png",
+    image: trainImage,
     description:
       "A modern train booking platform built with React, TypeScript, and Firebase. Features secure authentication, real-time train search, multi-passenger bookings, and responsive design powered by Redux Toolkit and Firestore.",
     technologies: [
@@ -91,7 +98,7 @@ const projects = [
   {
     id: 4,
     name: "Online Food order Application",
-    image: "../../src/assets/delivery-man.png",
+    image: foodImage,
     description:
       "Application for selling food online. Frontend build with Angular and Backend and Database Build with NodeJS, Express and MongoDB User Authentication with Firebase Auth, Integrated PayPal Payments. Click Over Image to order.",
     technologies: [
@@ -108,7 +115,7 @@ const projects = [
   {
     id: 5,
     name: "AI Chat Messenger – Next.js + LangChain",
-    image: "../../src/assets/artificial-intelligence.png",
+    image: aiChatImage,
     description:
       "An intelligent chat messenger built with Next.js, Firebase for database, and LangChain for context-aware model. It provides real-time messaging and AI-powered responses using OpenAI and Claude, with context-aware memory for seamless, continuous conversations.",
     technologies: [
@@ -126,7 +133,7 @@ const projects = [
   {
     id: 6,
     name: "ChatterUp – Real-time Chat Application",
-    image: "../../src/assets/chatbot.png",
+    image: chatAppImage,
     description:
       "A real-time chat application built with Node.js, Express, Socket.io, MongoDB, and React. Features instant messaging, typing indicators, live user presence, and persistent chat history with a clean responsive UI.",
     technologies: [

@@ -1,6 +1,7 @@
 import { Box, Typography, Button, Stack, Avatar } from "@mui/material";
 import { motion } from "framer-motion";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
+import profileImage from "../assets/IMG_20200127_122337.jpg";
 
 const BackgroundCircles = () => {
   return (
@@ -133,7 +134,7 @@ const Hero = () => {
       <Box sx={{ position: "relative" }}>
         <BackgroundCircles />
         <Avatar
-          src="../../src/assets/IMG_20200127_122337.jpg"
+          src={profileImage}
           alt="Vinay Choudhary"
           sx={{
             position: "relative",

@@ -1,7 +1,7 @@
 import { Box, Typography, Button, Stack, Avatar } from "@mui/material";
 import { motion } from "framer-motion";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
-import profileImage from "../assets/IMG_20200127_122337.jpg";
+import profileImage from "../assets/aboutnewpic.jpg";
 
 const BackgroundCircles = () => {
   return (

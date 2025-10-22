@@ -10,7 +10,7 @@ import {
 } from "@mui/material";
 import { motion } from "framer-motion";
 import { useState } from "react";
-import profileImage from "../assets/IMG_20200127_122337.jpg";
+import profileImage from "../assets/aboutnewpic.jpg";
 import resumePDF from "../assets/resume/Vinay_Choudhary___CV___Resume.pdf";
 
 const About = () => {
@@ -32,7 +32,7 @@ const About = () => {
     // Add a small delay to simulate download completion
     setTimeout(() => {
       setDownloading(false);
-    }, 1200);
+    }, 2500);
   };
 
   return (

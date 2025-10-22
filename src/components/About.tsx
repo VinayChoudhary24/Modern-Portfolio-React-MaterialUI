@@ -11,7 +11,7 @@ import {
 import { motion } from "framer-motion";
 import { useState } from "react";
 import profileImage from "../assets/aboutnewpic.jpg";
-import resumePDF from "../assets/resume/Vinay_Choudhary___CV___Resume.pdf";
+import resumePDF from "../assets/resume/FSD_Vinay Choudhary_Resume.pdf";
 
 const About = () => {
   const [downloading, setDownloading] = useState(false);

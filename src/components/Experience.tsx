@@ -36,6 +36,8 @@ const experiences = [
       "MongoDB",
       "TypeScript",
       "Redux",
+      "AI/ML",
+      "Chatbot",
       "Angular",
       "Payments",
       "Stripe",

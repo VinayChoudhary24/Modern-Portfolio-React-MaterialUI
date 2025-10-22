@@ -18,11 +18,11 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useRef } from "react";
 
 import defiImage from "../assets/letter-d.png";
-import microserviceImage from "../assets/microservice.png";
-import trainImage from "../assets/train.png";
+import microserviceImage from "../assets/blockchain.png";
+import trainImage from "../assets/trainround.png";
 import foodImage from "../assets/delivery-man.png";
-import aiChatImage from "../assets/artificial-intelligence.png";
-import chatAppImage from "../assets/chatbot.png";
+import aiChatImage from "../assets/bot.png";
+import chatAppImage from "../assets/meetme.png";
 
 // 🧠 Sample Projects Data
 const projects = [

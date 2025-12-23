@@ -19,6 +19,8 @@ import jqueryIcon from "../assets/jquery-icon.svg";
 import nextIcon from "../assets/Symbol Alternative.svg";
 import tailwindIcon from "../assets/tailwindcss-mark.d52e9897.svg";
 import vercelIcon from "../assets/vercel-icon-dark.svg";
+import awsIcon from "../assets/aws.png";
+import pythonIcon from "../assets/python.png";
 
 interface Skill {
   id: number;
@@ -39,6 +41,12 @@ const skills: Skill[] = [
     name: "TypeScript",
     image: tsIcon,
     color: "#3178C6",
+  },
+  {
+    id: 20,
+    name: "Python",
+    image: pythonIcon,
+    color: "#FFCA28",
   },
   {
     id: 3,
@@ -135,6 +143,12 @@ const skills: Skill[] = [
     name: "Vercel",
     image: vercelIcon,
     color: "#FF6C37",
+  },
+  {
+    id: 19,
+    name: "AWS",
+    image: awsIcon,
+    color: "#FFCA28",
   },
 ];
 
